@@ -9,3 +9,5 @@
 [alias]
   fit = !git reset --hard HEAD && git clean -f -d
   cb = !git checkout -b
+[core]
+	autocrlf = input
